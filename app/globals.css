@@ -199,6 +199,46 @@ footer{padding:34px 24px 96px;text-align:center;color:var(--mute);font-size:14px
 .t4{--bg1:#54ACBF;--bg2:#6DBACB;--fg:#011C40;--fm:rgba(1,28,64,.82);--chip:rgba(1,28,64,.13);--bd:rgba(1,28,64,.15)}
 .t5{--bg1:#011C40;--bg2:#023859;--fg:#EAFBFD;--fm:rgba(234,251,253,.8);--chip:rgba(84,172,191,.22);--bd:rgba(84,172,191,.4)}
 .t6{--bg1:#1F5679;--bg2:#26658C;--fg:#EAFBFD;--fm:rgba(234,251,253,.84);--chip:rgba(1,28,64,.42)}
+
+/* ================= experience: transparent glass cards ================= */
+.job.tone {
+  color: var(--text);
+  border: 1px solid var(--line);
+  background: linear-gradient(
+    180deg,
+    rgba(2,56,89,.56),
+    rgba(2,56,89,.34)
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(167,235,242,.12),
+    0 18px 40px rgba(0,8,26,.35);
+}
+
+/* Keep experience text readable */
+.job.tone h3 {
+  color: var(--text);
+}
+
+.job.tone p {
+  color: var(--mute);
+}
+
+/* Match the Services date badges */
+.job.tone .meta {
+  color: var(--c1);
+  background: rgba(84,172,191,.14);
+  border: 1px solid var(--line);
+}
+
+/* Preserve the hover animation */
+.job.tone: hover {
+  border-color: rgba(84,172,191,.55);
+  box-shadow:
+    inset 0 1px 0 rgba(167,235,242,.22),
+    0 20px 44px rgba(0,8,26,.45),
+    0 0 28px rgba(84,172,191,.18);
+}
+
 .rgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px}
 .rs{padding:30px 32px}
 .rs .stat b{font-size:clamp(48px,6vw,76px)}
