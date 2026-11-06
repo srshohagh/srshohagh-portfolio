@@ -61,8 +61,8 @@ section{padding:30px 0;scroll-margin-top:84px}
 /* brand-coloured contact buttons */
 .btn.brand{--ic:var(--brand);background:rgba(2,56,89,.6);border-color:color-mix(in srgb,var(--brand) 60%,transparent)}
 .btn.brand svg{color:var(--ic);transition:color .25s}
-.btn.brand: hover,.btn.brand:focus-visible{background:var(--brand);border-color:var(--brand);color:#fff}
-.btn.brand: hover svg,.btn.brand:focus-visible svg{color:#fff}
+.btn.brand:hover,.btn.brand:focus-visible{background:var(--brand);border-color:var(--brand);color:#fff}
+.btn.brand:hover svg,.btn.brand:focus-visible svg{color:#fff}
 .b-wa{--brand:#128c4a;--glow:rgba(37,211,102,.7);background:#128c4a!important;border-color:transparent!important}
 .b-wa svg{color:#fff!important}
 .b-wa:hover{background:#1fb860!important}
