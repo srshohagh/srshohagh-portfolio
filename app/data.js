@@ -17,7 +17,7 @@ export const stats = [
 export const services = [
   { t: 'Understand the need', i: 'chat', d: 'Requirements gathered through short, focused calls and written briefs, with replies within minutes. Core features are identified and locked before any work starts.' },
   { t: 'Web app and website with AI integration', i: 'window', d: 'Custom websites and web applications with AI built in, such as chatbots, workflow automation and AI-assisted features, scoped from requirements through to delivery.' },
-  { t: 'CMS website', i: 'grid', tag: 'WordPress · Kajabi · Wix · Shopify · Framer · Squarespace', d: 'Business websites, online stores and course platforms on the leading CMS and website builders, with scope, timeline and pricing agreed upfront.' },
+  { t: 'CMS website', i: 'grid', d: 'Business websites, online stores and course platforms on the leading CMS and website builders, with scope, timeline and pricing agreed upfront.' },
   { t: 'SaaS platform with app', i: 'phone', d: 'End-to-end SaaS products with a web dashboard and a companion Android and iOS app, planned in milestones from feature scoping to launch.' },
   { t: 'AI automation', i: 'flow', d: 'Workflow automation with n8n and AI: inquiry sorting, Google Sheets logging, Telegram and email alerts, CRM updates and draft replies, delivered with a clear handover.' },
   { t: 'Close and follow up', i: 'check', d: 'Zoom calls, custom offers and professional follow-ups that keep the conversation moving until the order is confirmed.' },
